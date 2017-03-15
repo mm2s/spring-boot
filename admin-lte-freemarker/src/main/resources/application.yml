@@ -1,0 +1,26 @@
+########################################################
+###FREEMARKER (FreeMarkerAutoConfiguration)
+########################################################
+spring:
+  freemarker:
+    cache: false
+    charset: UTF-8
+    content-type: text/html
+    allow-request-override: false
+    check-template-location: true
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+#spring.freemarker.prefix=
+#expose-spring-macro-helpers: false
+#spring.freemarker.request-context-attribute=
+#spring.freemarker.settings.*=
+#spring.freemarker.suffix=.ftl
+#spring.freemarker.template-loader-path=classpath:/templates/ #comma-separated list
+#spring.freemarker.view-names= # whitelist of view names that can be resolved
+
+# 日志级别 开发模式
+logging:
+  level:
+    com:
+      mm2s: debug
